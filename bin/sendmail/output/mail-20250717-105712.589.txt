@@ -1,0 +1,38 @@
+To: admin@gmail.com
+Subject: =?UTF-8?B?W1hNTC1Ub29sXSBUcmFuZyB3ZWIgY+G7p2EgYuG6oW4gxJFhbmcgZ+G6tw==?=
+ =?UTF-8?B?cCBz4buxIGPhu5Ega+G7uSB0aHXhuq10?=
+Date: Thu, 17 Jul 2025 03:57:12 +0000
+From: WordPress <wordpress@xml.test>
+Message-ID: <fQE1t9ewdWFUPCPohqXxICVbRaNdDKMnvnQvkwOCcDQ@xml.test>
+X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Chào mừng!
+
+WordPress có một tính năng tích hợp phát hiện khi một plugin hoặc giao diện gây ra lỗi nghiêm trọng trên trang web của bạn và thông báo cho bạn bằng email tự động này. 
+Trong trường hợp này, WordPress đã gặp lỗi với một trong các plugin của bạn, XML Exporter with GMC Realtime.
+
+Đầu tiên, truy cập trang web của bạn (http://xml.test/) và kiểm tra bất kỳ vấn đề nào hiển thị. Tiếp theo, truy cập trang nơi lỗi được bắt gặp (http://xml.test/wp-admin/admin.php?page=xml-exporter-list) và kiểm tra bất kỳ vấn đề nào hiển thị.
+
+Vui lòng liên hệ với nhà cung cấp hosting của bạn để được hỗ trợ kiểm tra vấn đề này.
+
+Nếu trang web của bạn xuất hiện bị hỏng và bạn không thể truy cập trang quản trị bình thường, WordPress hiện có một chế độ “phục hồi” đặc biệt. Điều này cho phép bạn an toàn đăng nhập vào trang quản trị và điều tra thêm.
+
+http://xml.test/wp-login.php?action=enter_recovery_mode&rm_token=ON7tKXvU8DrsUhAqjcZfLv&rm_key=FbW8CYEYkpysa9nPTAY7YZ
+
+Để giữ an toàn cho trang web của bạn, liên kết này sẽ hết hạn trong 1 ngày. Đừng lo lắng về điều đó, tuy nhiên: một liên kết mới sẽ được gửi email cho bạn nếu lỗi xảy ra lại sau khi nó hết hạn.
+
+Khi tìm kiếm sự giúp đỡ với vấn đề này, bạn có thể được yêu cầu một số thông tin sau: 
+Phiên bản WordPress 6.8.2
+Giao diện hiện tại: Twenty Twenty-Five (phiên bản 1.2)
+Plugin hiện tại: XML Exporter with GMC Realtime (phiên bản 1.1)
+PHP phiên bản 8.3.22
+
+
+
+Thông tin lỗi
+================
+Có lỗi E_PARSE tại dòng 408 trong file: C:\laragon\www\XML\wp-content\plugins\xml-exporter\templates\admin-list.php. Thông báo lỗi: Unclosed '{' on line 35
+

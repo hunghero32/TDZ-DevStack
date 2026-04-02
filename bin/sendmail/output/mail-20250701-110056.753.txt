@@ -1,0 +1,25 @@
+To: admin@gmail.com
+Subject: =?UTF-8?Q?Trang_web_m=E1=BB=9Bi_d=C3=B9ng_WordPress?=
+Date: Tue, 1 Jul 2025 04:00:56 +0000
+From: WordPress <wordpress@xml.test>
+Message-ID: <7XL2DyeBUsH7TaNU8MEp7nWYzrijy6AlQY3wAeVK9U@xml.test>
+X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Website WordPress của bạn đã được cài đặt thành công tại:
+
+http://xml.test
+
+Bạn có thể đăng nhập bằng tài khoản quản trị với thông tin sau:
+
+Tài khoản: admin
+Mật khẩu: Mật khẩu bạn chọn trong quá trình cài đặt.
+Địa chỉ đăng nhập: http://xml.test/wp-login.php
+
+Hi vọng bạn sẽ có trải nghiệm tốt với website mới. Xin cảm ơn!
+
+--WordPress Việt Nam
+https://vi.wordpress.org/
+

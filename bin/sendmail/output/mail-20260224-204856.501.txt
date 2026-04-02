@@ -1,0 +1,25 @@
+To: admin@gmail.com
+Subject: =?UTF-8?Q?[XML-Tool]_Trang_m=E1=BA=A1ng_c=E1=BB=A7a_b?=
+ =?UTF-8?Q?=E1=BA=A1n_=C4=91=C3=A3_=C4=91=C6=B0=E1=BB=A3c_n?=
+ =?UTF-8?Q?=C3=A2ng_c=E1=BA=A5p_l=C3=AAn_WordPress_6.9.1?=
+Date: Tue, 24 Feb 2026 13:48:56 +0000
+From: WordPress <wordpress@xml.test>
+Message-ID: <s46gVOhB6ES48Et3JEF9dEDWzaCaBTMbtF1WWYTcCyQ@xml.test>
+X-Mailer: PHPMailer 7.0.0 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Xin chào! Trang mạng của bạn tại http://xml.test đã được tự động nâng cấp lên WordPress 6.9.1.
+
+Bạn không cần làm thêm hành động nào nữa. Để biết thêm thông tin về phiên bản 6.9.1, hãy xem màn hình Về WordPress:
+http://xml.test/wp-admin/about.php
+
+Nếu bạn gặp bất cứ vấn đề gì hoặc cần hỗ trợ, các tình nguyện viên tại diễn đàn hỗ trợ của WordPress.org có thể sẵn sàng giúp bạn.
+https://wordpress.org/support/forums/
+
+Có cập nhật cho một vài plugin và giao diện bạn đang dùng. Nâng cấp ngay:
+http://xml.test/wp-admin/
+
+Nhóm Phát Triển WordPress
+
