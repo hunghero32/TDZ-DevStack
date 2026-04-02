@@ -1,0 +1,157 @@
+{
+  "lastUpdated": "2026-04-01",
+  "packages": {
+    "php": {
+      "category": "runtime",
+      "icon": "🐘",
+      "versions": {
+        "php-8.5.4-nts-Win32-vs17-x64": {
+          "version": "8.5.4",
+          "label": "PHP 8.5 (Latest)",
+          "url": "https://windows.php.net/downloads/releases/php-8.5.4-nts-Win32-vs17-x64.zip",
+          "size": "28MB",
+          "extractTo": "bin/php/",
+          "default": true
+        },
+        "php-8.4.12-nts-Win32-vs17-x64": {
+          "version": "8.4.12",
+          "label": "PHP 8.4 (LTS)",
+          "url": "https://windows.php.net/downloads/releases/archives/php-8.4.12-nts-Win32-vs17-x64.zip",
+          "size": "27MB",
+          "extractTo": "bin/php/"
+        },
+        "php-8.3.25-nts-Win32-vs16-x64": {
+          "version": "8.3.25",
+          "label": "PHP 8.3",
+          "url": "https://windows.php.net/downloads/releases/archives/php-8.3.25-nts-Win32-vs16-x64.zip",
+          "size": "26MB",
+          "extractTo": "bin/php/"
+        },
+        "php-8.2.28-nts-Win32-vs16-x64": {
+          "version": "8.2.28",
+          "label": "PHP 8.2",
+          "url": "https://windows.php.net/downloads/releases/archives/php-8.2.28-nts-Win32-vs16-x64.zip",
+          "size": "26MB",
+          "extractTo": "bin/php/"
+        },
+        "php-8.1.32-nts-Win32-vs16-x64": {
+          "version": "8.1.32",
+          "label": "PHP 8.1 (Legacy)",
+          "url": "https://windows.php.net/downloads/releases/archives/php-8.1.32-nts-Win32-vs16-x64.zip",
+          "size": "25MB",
+          "extractTo": "bin/php/"
+        }
+      }
+    },
+    "mysql": {
+      "category": "database",
+      "icon": "🗄️",
+      "versions": {
+        "mysql-9.4.0-winx64": {
+          "version": "9.4.0",
+          "label": "MySQL 9.4 (Innovation)",
+          "url": "https://dev.mysql.com/get/Downloads/MySQL-9.4/mysql-9.4.0-winx64.zip",
+          "size": "300MB",
+          "extractTo": "bin/mysql/"
+        },
+        "mysql-8.4.6-winx64": {
+          "version": "8.4.6",
+          "label": "MySQL 8.4 (LTS)",
+          "url": "https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-8.4.6-winx64.zip",
+          "size": "290MB",
+          "extractTo": "bin/mysql/",
+          "default": true
+        },
+        "mysql-8.0.40-winx64": {
+          "version": "8.0.40",
+          "label": "MySQL 8.0",
+          "url": "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.40-winx64.zip",
+          "size": "280MB",
+          "extractTo": "bin/mysql/"
+        }
+      }
+    },
+    "apache": {
+      "category": "web_server",
+      "icon": "🌐",
+      "versions": {
+        "httpd-2.4.65-Win64-VS17": {
+          "version": "2.4.65",
+          "label": "Apache 2.4.65 (Latest)",
+          "url": "https://www.apachelounge.com/download/VS17/binaries/httpd-2.4.65-250724-Win64-VS17.zip",
+          "size": "65MB",
+          "extractTo": "bin/apache/",
+          "default": true
+        }
+      }
+    },
+    "nginx": {
+      "category": "web_server",
+      "icon": "🔷",
+      "versions": {
+        "nginx-1.29.1": {
+          "version": "1.29.1",
+          "label": "Nginx 1.29 (Mainline)",
+          "url": "https://nginx.org/download/nginx-1.29.1.zip",
+          "size": "2MB",
+          "extractTo": "bin/nginx/",
+          "default": true
+        }
+      }
+    },
+    "nodejs": {
+      "category": "runtime",
+      "icon": "🟢",
+      "versions": {
+        "node-v24.9.0-win-x64": {
+          "version": "24.9.0",
+          "label": "Node.js 24 (Current)",
+          "url": "https://nodejs.org/dist/v24.9.0/node-v24.9.0-win-x64.zip",
+          "size": "30MB",
+          "extractTo": "bin/nodejs/",
+          "default": true
+        },
+        "node-v22.14.0-win-x64": {
+          "version": "22.14.0",
+          "label": "Node.js 22 (LTS)",
+          "url": "https://nodejs.org/dist/v22.14.0/node-v22.14.0-win-x64.zip",
+          "size": "29MB",
+          "extractTo": "bin/nodejs/"
+        }
+      }
+    },
+    "postgresql": {
+      "category": "database",
+      "icon": "🐘",
+      "versions": {
+        "postgresql-18.0": {
+          "version": "18.0",
+          "label": "PostgreSQL 18",
+          "url": "https://sbp.enterprisedb.com/getfile.jsp?fileid=1259741",
+          "size": "200MB",
+          "extractTo": "bin/postgresql/"
+        },
+        "postgresql-17.2": {
+          "version": "17.2",
+          "label": "PostgreSQL 17",
+          "url": "https://sbp.enterprisedb.com/getfile.jsp?fileid=1259294",
+          "size": "200MB",
+          "extractTo": "bin/postgresql/"
+        }
+      }
+    },
+    "golang": {
+      "category": "runtime",
+      "icon": "🔵",
+      "versions": {
+        "go-1.24": {
+          "version": "1.24.1",
+          "label": "Go 1.24",
+          "url": "https://go.dev/dl/go1.24.1.windows-amd64.zip",
+          "size": "120MB",
+          "extractTo": "bin/go/"
+        }
+      }
+    }
+  }
+}

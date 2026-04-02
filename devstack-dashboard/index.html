@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDZ DevStack — Dashboard</title>
+    <meta name="description" content="TDZ DevStack - Portable Development Environment Manager for Windows">
+    <link rel="icon" type="image/png" href="assets/TDZ.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-effects">
+        <div class="bg-orb bg-orb-1"></div>
+        <div class="bg-orb bg-orb-2"></div>
+        <div class="bg-orb bg-orb-3"></div>
+        <div class="bg-grid"></div>
+    </div>
+
+    <!-- App Shell -->
+    <div class="app" id="app">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <img src="assets/TDZ.png" alt="TDZ" class="logo-icon-img" width="32" height="32" style="object-fit:contain;">
+                    <div>
+                        <h1 class="logo-text">TDZ</h1>
+                        <p class="logo-sub">DevStack</p>
+                    </div>
+                </div>
+                <button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">☰</button>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="#services" class="nav-item active" data-page="services" onclick="navigate('services')">
+                    <span class="nav-icon">🔧</span>
+                    <span class="nav-text">Services</span>
+                </a>
+                <a href="#projects" class="nav-item" data-page="projects" onclick="navigate('projects')">
+                    <span class="nav-icon">🚀</span>
+                    <span class="nav-text">Projects</span>
+                </a>
+                <a href="#packages" class="nav-item" data-page="packages" onclick="navigate('packages')">
+                    <span class="nav-icon">📦</span>
+                    <span class="nav-text">Packages</span>
+                </a>
+                <a href="#logs" class="nav-item" data-page="logs" onclick="navigate('logs')">
+                    <span class="nav-icon">📋</span>
+                    <span class="nav-text">Logs</span>
+                </a>
+                <a href="#ssl" class="nav-item" data-page="ssl" onclick="navigate('ssl')">
+                    <span class="nav-icon">🔐</span>
+                    <span class="nav-text">SSL</span>
+                </a>
+                <a href="#profiles" class="nav-item" data-page="profiles" onclick="navigate('profiles')">
+                    <span class="nav-icon">💾</span>
+                    <span class="nav-text">Profiles</span>
+                </a>
+                <a href="#settings" class="nav-item" data-page="settings" onclick="navigate('settings')">
+                    <span class="nav-icon">⚙</span>
+                    <span class="nav-text">Settings</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="system-metrics" id="systemMetrics">
+                    <div class="metric">
+                        <span class="metric-label">PHP</span>
+                        <span class="metric-value" id="metricPhp">--</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Host</span>
+                        <span class="metric-value" id="metricHost">--</span>
+                    </div>
+                </div>
+                <div class="version-badge" id="versionBadge">v1.0.0</div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main" id="mainContent">
+            <!-- Top Bar -->
+            <header class="topbar">
+                <div class="topbar-left">
+                    <button class="mobile-menu-btn" onclick="toggleSidebar()">☰</button>
+                    <h2 class="page-title" id="pageTitle">Services</h2>
+                </div>
+                <div class="topbar-right">
+                    <div class="topbar-actions">
+                        <button class="btn btn-start-all" id="btnStartAll" onclick="controlAll('start')">
+                            <span class="btn-icon">▶</span>
+                            <span class="btn-label">Start All</span>
+                        </button>
+                        <button class="btn btn-stop-all" id="btnStopAll" onclick="controlAll('stop')">
+                            <span class="btn-icon">■</span>
+                            <span class="btn-label">Stop All</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Page: Services (default) -->
+            <div class="page active" id="page-services">
+                <!-- Services Section -->
+                <section class="section">
+                    <div class="section-header">
+                        <h3 class="section-title"><span class="section-icon">🔧</span> Services</h3>
+                    </div>
+                    <div class="services-grid" id="servicesGrid">
+                        <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+                        <div class="skeleton"></div><div class="skeleton"></div>
+                    </div>
+                </section>
+
+                <!-- Runtimes Section -->
+                <section class="section">
+                    <div class="section-header">
+                        <h3 class="section-title"><span class="section-icon">📦</span> Runtime & Versions</h3>
+                    </div>
+                    <div class="runtimes-grid" id="runtimesGrid"></div>
+                </section>
+
+                <!-- Quick Access -->
+                <section class="section">
+                    <div class="section-header">
+                        <h3 class="section-title"><span class="section-icon">🔗</span> Quick Access</h3>
+                    </div>
+                    <div class="quick-links" id="quickLinks">
+                        <a href="http://localhost" target="_blank" class="quick-link">
+                            <span class="ql-icon">🌐</span><span>localhost</span>
+                        </a>
+                        <a href="http://localhost/phpmyadmin" target="_blank" class="quick-link">
+                            <span class="ql-icon">🗄️</span><span>phpMyAdmin</span>
+                        </a>
+                        <a href="http://localhost:8025" target="_blank" class="quick-link">
+                            <span class="ql-icon">📧</span><span>Mailpit</span>
+                        </a>
+                        <a href="#" class="quick-link" onclick="openPhpInfo(); return false;">
+                            <span class="ql-icon">🐘</span><span>PHP Info</span>
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Page: Projects -->
+            <div class="page" id="page-projects">
+                <section class="section">
+                    <div class="section-header">
+                        <h3 class="section-title"><span class="section-icon">🚀</span> Projects</h3>
+                        <button class="btn btn-outline btn-sm" onclick="refreshProjects()">↻ Refresh</button>
+                    </div>
+                    <div class="projects-grid" id="projectsGrid">
+                        <p class="empty-state">Loading projects...</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Page: Packages -->
+            <div class="page" id="page-packages">
+                <section class="section">
+                    <div class="section-header">
+                        <h3 class="section-title"><span class="section-icon">📦</span> Installed Packages</h3>
+                        <button class="btn btn-outline btn-sm" onclick="refreshPackages()">↻ Refresh</button>
+                    </div>
+                    <div class="packages-grid" id="packagesGrid">
+                        <p class="empty-state">Loading packages...</p>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <div class="section-header">
+                        <h3 class="section-title"><span class="section-icon">🏪</span> Available Packages</h3>
+                        <button class="btn btn-outline btn-sm" onclick="updateRegistry()">↻ Update Registry</button>
+                    </div>
+                    <div class="registry-grid" id="registryGrid">
+                        <p class="empty-state">Loading registry...</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Page: Logs -->
+            <div class="page" id="page-logs">
+                <section class="section">
+                    <div class="section-header">
+                        <h3 class="section-title"><span class="section-icon">📋</span> Logs</h3>
+                        <div class="log-controls">
+                            <select class="log-service-select" id="logServiceSelect" onchange="loadLogs()">
+                                <option value="system">System</option>
+                                <option value="all">All</option>
+                                <option value="apache">Apache</option>
+                                <option value="mysql">MySQL</option>
+                                <option value="redis">Redis</option>
+                                <option value="mailpit">Mailpit</option>
+                                <option value="vhost">VHosts</option>
+                                <option value="package">Packages</option>
+                                <option value="ssl">SSL</option>
+                                <option value="profile">Profiles</option>
+                            </select>
+                            <button class="btn btn-outline btn-sm" onclick="loadLogs()">↻</button>
+                            <button class="btn btn-danger btn-sm" onclick="clearLogs()">🗑 Clear</button>
+                        </div>
+                    </div>
+                    <div class="log-viewer" id="logViewer">
+                        <pre class="log-content" id="logContent">No logs loaded</pre>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Page: SSL -->
+            <div class="page" id="page-ssl">
+                <section class="section">
+                    <div class="section-header">
+                        <h3 class="section-title"><span class="section-icon">🔐</span> SSL Certificates</h3>
+                    </div>
+                    <div class="ssl-form">
+                        <div class="input-group">
+                            <input type="text" class="input" id="sslDomainInput" placeholder="myproject.test">
+                            <button class="btn btn-primary" onclick="generateSSL()">Generate SSL</button>
+                        </div>
+                        <button class="btn btn-outline btn-sm" onclick="initCA()" style="margin-top: 8px">Initialize CA</button>
+                    </div>
+                    <div class="ssl-list" id="sslList">
+                        <p class="empty-state">Loading certificates...</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Page: Profiles -->
+            <div class="page" id="page-profiles">
+                <section class="section">
+                    <div class="section-header">
+                        <h3 class="section-title"><span class="section-icon">💾</span> Environment Profiles</h3>
+                    </div>
+                    <div class="profile-form">
+                        <div class="input-group">
+                            <input type="text" class="input" id="profileNameInput" placeholder="Profile name">
+                            <input type="text" class="input" id="profileDescInput" placeholder="Description (optional)">
+                            <button class="btn btn-primary" onclick="saveProfile()">Save Current</button>
+                        </div>
+                    </div>
+                    <div class="profiles-list" id="profilesList">
+                        <p class="empty-state">Loading profiles...</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Page: Settings -->
+            <div class="page" id="page-settings">
+                <section class="section">
+                    <div class="section-header">
+                        <h3 class="section-title"><span class="section-icon">⚙</span> Configuration</h3>
+                        <button class="btn btn-primary btn-sm" onclick="saveSettings()">💾 Save</button>
+                    </div>
+                    <div class="settings-form" id="settingsForm">
+                        <div class="settings-group">
+                            <h4 class="settings-group-title">Preferences</h4>
+                            <div class="setting-row">
+                                <label>TLD (Top Level Domain)</label>
+                                <input type="text" class="input input-sm" id="settingTld" value=".test">
+                            </div>
+                            <div class="setting-row">
+                                <label>API Port</label>
+                                <input type="number" class="input input-sm" id="settingApiPort" value="2004">
+                            </div>
+                            <div class="setting-row">
+                                <label>Auto Start Services</label>
+                                <label class="toggle">
+                                    <input type="checkbox" id="settingAutoStart">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="setting-row">
+                                <label>Auto Virtual Hosts</label>
+                                <label class="toggle">
+                                    <input type="checkbox" id="settingAutoVHosts" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="settings-group">
+                            <h4 class="settings-group-title">System Info</h4>
+                            <div class="info-grid" id="infoGrid">
+                                <p class="empty-state">Loading...</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Version Switch Modal -->
+    <div class="modal-overlay" id="versionModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="modalTitle">Switch Version</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Config Editor Modal -->
+    <div class="modal-overlay" id="configEditorModal">
+        <div class="modal modal-lg">
+            <div class="modal-header">
+                <h3 id="configEditorTitle">📝 Edit Config</h3>
+                <div class="modal-actions">
+                    <button class="btn btn-primary btn-sm" onclick="saveConfigEditor()">💾 Save</button>
+                    <button class="modal-close" onclick="closeConfigEditor()">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="config-toolbar">
+                    <select id="configFileSelect" onchange="loadSelectedConfig()" title="Config file selector" aria-label="Config file selector">
+                        <option value="">-- Select config file --</option>
+                    </select>
+                    <span class="config-path" id="configFilePath"></span>
+                </div>
+                <textarea class="config-editor" id="configEditorArea" spellcheck="false" placeholder="Select a config file to edit..." aria-label="Config file editor"></textarea>
+                <div class="config-status" id="configStatus"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PHP Extensions Modal -->
+    <div class="modal-overlay" id="phpExtModal">
+        <div class="modal modal-md">
+            <div class="modal-header">
+                <h3>🧩 PHP Extensions</h3>
+                <button class="modal-close" onclick="closePhpExtModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="php-ext-info" id="phpExtInfo"></div>
+                <div class="php-ext-search">
+                    <input type="text" class="input input-sm" id="phpExtSearch" placeholder="🔍 Filter extensions..." oninput="filterExtensions()" aria-label="Search PHP extensions">
+                </div>
+                <div class="php-ext-list" id="phpExtList">
+                    <p class="empty-state">Loading extensions...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Port Editor Modal -->
+    <div class="modal-overlay" id="portEditorModal">
+        <div class="modal modal-sm">
+            <div class="modal-header">
+                <h3 id="portEditorTitle">🔌 Change Port</h3>
+                <button class="modal-close" onclick="closePortEditor()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="port-form">
+                    <label for="portInput">New port for <strong id="portServiceLabel"></strong>:</label>
+                    <input type="number" class="input" id="portInput" min="1" max="65535" placeholder="Port number" aria-label="Port number">
+                    <div class="port-actions">
+                        <button class="btn btn-primary" onclick="savePort()">Apply</button>
+                        <button class="btn btn-outline" onclick="closePortEditor()">Cancel</button>
+                    </div>
+                    <p class="port-hint">⚠️ Restart service after changing port</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

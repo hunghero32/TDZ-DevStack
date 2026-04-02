@@ -1,0 +1,65 @@
+{
+    "version": "1.0.0",
+    "name": "TDZ DevStack",
+    "preferences": {
+        "autoStart": false,
+        "autoVirtualHosts": true,
+        "tld": ".test",
+        "language": "vi",
+        "theme": "dark",
+        "apiPort": 8080,
+        "dashboardAutoOpen": true,
+        "logLevel": "info"
+    },
+    "services": {
+        "apache": {
+            "active": "httpd-2.4.66-260223-Win64-VS18",
+            "autoStart": true,
+            "port": 80,
+            "sslPort": 443
+        },
+        "mysql": {
+            "active": "mysql-8.4.3-winx64",
+            "autoStart": true,
+            "port": 3306,
+            "rootPassword": ""
+        },
+        "redis": {
+            "active": "redis-x64-5.0.14.1",
+            "autoStart": true,
+            "port": 6379
+        },
+        "memcached": {
+            "active": "memcached-1.6.8-win64-mingw",
+            "autoStart": true,
+            "port": 11211
+        },
+        "mailpit": {
+            "active": "1.22.3",
+            "autoStart": true,
+            "smtpPort": 1025,
+            "uiPort": 8025
+        },
+        "nginx": {
+            "active": "nginx-1.28.2",
+            "autoStart": false,
+            "port": 80,
+            "isAlternate": true
+        }
+    },
+    "runtimes": {
+        "php": {
+            "active": "php-8.5.4-Win32-vs17-x64"
+        },
+        "nodejs": {
+            "active": "node-v24"
+        },
+        "python": {
+            "active": "python-3.13"
+        }
+    },
+    "packages": {
+        "registryUrl": "https://raw.githubusercontent.com/tdz-devstack/registry/main/packages.json",
+        "sourcesFile": "packages.conf"
+    }
+}
