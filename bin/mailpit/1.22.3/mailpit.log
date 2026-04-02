@@ -1,0 +1,3 @@
+time="2026/04/01 00:56:16" level=fatal msg="listen tcp 0.0.0.0:8025: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."
+time="2026/04/01 10:42:14" level=fatal msg="listen tcp 127.0.0.1:1025: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."
+time="2026/04/01 10:46:31" level=fatal msg="listen tcp 0.0.0.0:8025: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."
