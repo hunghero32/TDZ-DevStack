@@ -1,0 +1,135 @@
+[Wed Apr 01 01:49:53.314368 2026] [mpm_winnt:notice] [pid 7248:tid 472] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Wed Apr 01 01:49:53.314368 2026] [mpm_winnt:notice] [pid 7248:tid 472] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Wed Apr 01 01:49:53.314368 2026] [core:notice] [pid 7248:tid 472] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18'
+[Wed Apr 01 01:49:53.317342 2026] [mpm_winnt:notice] [pid 7248:tid 472] AH00418: Parent: Created child process 13020
+Apache server interrupted...
+026] [mpm_winnt:notice] [pid 13020:tid 444] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 01 01:50:24.517970 2026] [mpm_winnt:notice] [pid 7248:tid 472] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Apr 01 01:50:26.540804 2026] [mpm_winnt:notice] [pid 13020:tid 444] AH00364: Child: All worker threads have exited.
+[Wed Apr 01 01:50:27.558053 2026] [core:warn] [pid 15184:tid 436] AH00098: pid file C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 01 01:50:27.599056 2026] [mpm_winnt:notice] [pid 15184:tid 436] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Wed Apr 01 01:50:27.599056 2026] [mpm_winnt:notice] [pid 15184:tid 436] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Wed Apr 01 01:50:27.599056 2026] [core:notice] [pid 15184:tid 436] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18'
+[Wed Apr 01 01:50:27.602054 2026] [mpm_winnt:notice] [pid 15184:tid 436] AH00418: Parent: Created child process 11284
+Apache server interrupted...
+026] [mpm_winnt:notice] [pid 11284:tid 428] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 01 01:54:39.975486 2026] [mpm_winnt:notice] [pid 15184:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Apr 01 01:54:41.987152 2026] [mpm_winnt:notice] [pid 11284:tid 428] AH00364: Child: All worker threads have exited.
+[Wed Apr 01 01:54:49.903270 2026] [core:warn] [pid 3284:tid 440] AH00098: pid file C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 01 01:54:49.941272 2026] [mpm_winnt:notice] [pid 3284:tid 440] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Wed Apr 01 01:54:49.941272 2026] [mpm_winnt:notice] [pid 3284:tid 440] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Wed Apr 01 01:54:49.941272 2026] [core:notice] [pid 3284:tid 440] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18'
+[Wed Apr 01 01:54:49.944272 2026] [mpm_winnt:notice] [pid 3284:tid 440] AH00418: Parent: Created child process 11236
+Apache server interrupted...
+026] [mpm_winnt:notice] [pid 11236:tid 444] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 01 10:26:35.266217 2026] [mpm_winnt:notice] [pid 3284:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Apr 01 10:26:37.278762 2026] [mpm_winnt:notice] [pid 11236:tid 444] AH00364: Child: All worker threads have exited.
+[Wed Apr 01 10:26:38.804733 2026] [core:warn] [pid 17120:tid 480] AH00098: pid file C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 01 10:26:38.864728 2026] [mpm_winnt:notice] [pid 17120:tid 480] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Wed Apr 01 10:26:38.864728 2026] [mpm_winnt:notice] [pid 17120:tid 480] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Wed Apr 01 10:26:38.864728 2026] [core:notice] [pid 17120:tid 480] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18'
+[Wed Apr 01 10:26:38.868728 2026] [mpm_winnt:notice] [pid 17120:tid 480] AH00418: Parent: Created child process 18336
+Apache server interrupted...
+026] [mpm_winnt:notice] [pid 18336:tid 444] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 01 10:30:13.674900 2026] [mpm_winnt:notice] [pid 17120:tid 480] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Apr 01 10:30:15.690994 2026] [mpm_winnt:notice] [pid 18336:tid 444] AH00364: Child: All worker threads have exited.
+[Wed Apr 01 10:30:31.525366 2026] [core:warn] [pid 10176:tid 468] AH00098: pid file C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 01 10:30:31.572262 2026] [mpm_winnt:notice] [pid 10176:tid 468] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Wed Apr 01 10:30:31.572262 2026] [mpm_winnt:notice] [pid 10176:tid 468] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Wed Apr 01 10:30:31.572262 2026] [core:notice] [pid 10176:tid 468] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18'
+[Wed Apr 01 10:30:31.576258 2026] [mpm_winnt:notice] [pid 10176:tid 468] AH00418: Parent: Created child process 6820
+[Wed Apr 01 10:30:32.225264 2026] [mpm_winnt:notice] [pid 6820:tid 432] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 01 10:40:20.860897 2026] [core:warn] [pid 5188:tid 452] AH00098: pid file C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 01 10:40:20.912898 2026] [mpm_winnt:notice] [pid 5188:tid 452] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Wed Apr 01 10:40:20.912898 2026] [mpm_winnt:notice] [pid 5188:tid 452] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Wed Apr 01 10:40:20.912898 2026] [core:notice] [pid 5188:tid 452] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.66-260223-Win64-VS18'
+[Wed Apr 01 10:40:20.914900 2026] [mpm_winnt:notice] [pid 5188:tid 452] AH00418: Parent: Created child process 9408
+Apache server interrupted...
+026] [mpm_winnt:notice] [pid 9408:tid 440] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 01 10:45:18.298136 2026] [mpm_winnt:notice] [pid 5188:tid 452] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 02 09:32:49.095785 2026] [core:warn] [pid 17384:tid 420] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 09:32:51.384504 2026] [mpm_winnt:notice] [pid 17384:tid 420] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 09:32:51.384504 2026] [mpm_winnt:notice] [pid 17384:tid 420] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 09:32:51.384504 2026] [core:notice] [pid 17384:tid 420] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18'
+[Thu Apr 02 09:32:51.394975 2026] [mpm_winnt:notice] [pid 17384:tid 420] AH00418: Parent: Created child process 4500
+[Thu Apr 02 09:32:53.607799 2026] [mpm_winnt:notice] [pid 4500:tid 424] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 02 10:18:23.541141 2026] [core:warn] [pid 11948:tid 408] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 10:18:24.468543 2026] [mpm_winnt:notice] [pid 11948:tid 408] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 10:18:24.469545 2026] [mpm_winnt:notice] [pid 11948:tid 408] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 10:18:24.469545 2026] [core:notice] [pid 11948:tid 408] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18 -f C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\conf\\httpd.conf'
+[Thu Apr 02 10:18:24.473550 2026] [mpm_winnt:notice] [pid 11948:tid 408] AH00418: Parent: Created child process 4160
+[Thu Apr 02 10:18:26.213336 2026] [mpm_winnt:notice] [pid 4160:tid 440] AH00354: Child: Starting 64 worker threads.
+'c:/Users/HUNG/Desktop/TDZ' is not recognized as an internal or external command,
+operable program or batch file.
+[Thu Apr 02 10:25:56.797154 2026] [core:warn] [pid 15864:tid 404] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 10:25:56.834891 2026] [mpm_winnt:notice] [pid 15864:tid 404] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 10:25:56.834891 2026] [mpm_winnt:notice] [pid 15864:tid 404] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 10:25:56.834891 2026] [core:notice] [pid 15864:tid 404] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18 -f C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\conf\\httpd.conf'
+[Thu Apr 02 10:25:56.837928 2026] [mpm_winnt:notice] [pid 15864:tid 404] AH00418: Parent: Created child process 4932
+[Thu Apr 02 10:25:57.363581 2026] [mpm_winnt:notice] [pid 4932:tid 428] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 02 10:28:35.017527 2026] [core:warn] [pid 3528:tid 428] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 10:28:35.145961 2026] [mpm_winnt:notice] [pid 3528:tid 428] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 10:28:35.145961 2026] [mpm_winnt:notice] [pid 3528:tid 428] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 10:28:35.145961 2026] [core:notice] [pid 3528:tid 428] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18 -f C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\conf\\httpd.conf'
+[Thu Apr 02 10:28:35.158961 2026] [mpm_winnt:notice] [pid 3528:tid 428] AH00418: Parent: Created child process 16196
+[Thu Apr 02 10:28:36.792097 2026] [mpm_winnt:notice] [pid 16196:tid 424] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 02 10:34:34.972242 2026] [core:warn] [pid 10232:tid 432] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 10:34:35.010390 2026] [mpm_winnt:notice] [pid 10232:tid 432] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 10:34:35.010390 2026] [mpm_winnt:notice] [pid 10232:tid 432] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 10:34:35.010390 2026] [core:notice] [pid 10232:tid 432] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18'
+[Thu Apr 02 10:34:35.013385 2026] [mpm_winnt:notice] [pid 10232:tid 432] AH00418: Parent: Created child process 13040
+[Thu Apr 02 10:34:35.526867 2026] [mpm_winnt:notice] [pid 13040:tid 444] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 02 10:37:50.119148 2026] [core:warn] [pid 13568:tid 424] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 10:37:50.156731 2026] [mpm_winnt:notice] [pid 13568:tid 424] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 10:37:50.156731 2026] [mpm_winnt:notice] [pid 13568:tid 424] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 10:37:50.156731 2026] [core:notice] [pid 13568:tid 424] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18'
+[Thu Apr 02 10:37:50.159763 2026] [mpm_winnt:notice] [pid 13568:tid 424] AH00418: Parent: Created child process 16880
+[Thu Apr 02 10:37:50.707936 2026] [mpm_winnt:notice] [pid 16880:tid 428] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 02 10:40:30.182082 2026] [core:warn] [pid 2812:tid 424] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 10:40:30.220903 2026] [mpm_winnt:notice] [pid 2812:tid 424] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 10:40:30.220903 2026] [mpm_winnt:notice] [pid 2812:tid 424] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 10:40:30.220903 2026] [core:notice] [pid 2812:tid 424] AH00094: Command line: 'c:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18 -f c:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\conf\\httpd.conf'
+[Thu Apr 02 10:40:30.224448 2026] [mpm_winnt:notice] [pid 2812:tid 424] AH00418: Parent: Created child process 5196
+[Thu Apr 02 10:40:31.096503 2026] [mpm_winnt:notice] [pid 5196:tid 420] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 02 10:48:37.080030 2026] [core:warn] [pid 5676:tid 408] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 10:48:37.169231 2026] [mpm_winnt:notice] [pid 5676:tid 408] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 10:48:37.169231 2026] [mpm_winnt:notice] [pid 5676:tid 408] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 10:48:37.169231 2026] [core:notice] [pid 5676:tid 408] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18 -f C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\conf\\httpd.conf'
+[Thu Apr 02 10:48:37.175240 2026] [mpm_winnt:notice] [pid 5676:tid 408] AH00418: Parent: Created child process 6756
+[Thu Apr 02 10:48:38.351329 2026] [mpm_winnt:notice] [pid 6756:tid 444] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 02 11:24:12.625127 2026] [core:warn] [pid 10072:tid 404] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 11:24:14.781019 2026] [mpm_winnt:notice] [pid 10072:tid 404] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 11:24:14.781019 2026] [mpm_winnt:notice] [pid 10072:tid 404] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 11:24:14.781019 2026] [core:notice] [pid 10072:tid 404] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18 -f C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\conf\\httpd.conf'
+[Thu Apr 02 11:24:14.796016 2026] [mpm_winnt:notice] [pid 10072:tid 404] AH00418: Parent: Created child process 2580
+[Thu Apr 02 11:24:17.103016 2026] [mpm_winnt:notice] [pid 2580:tid 420] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 02 12:04:36.998787 2026] [core:warn] [pid 10472:tid 416] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 12:04:38.869107 2026] [mpm_winnt:notice] [pid 10472:tid 416] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 12:04:38.869107 2026] [mpm_winnt:notice] [pid 10472:tid 416] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 12:04:38.869107 2026] [core:notice] [pid 10472:tid 416] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18 -f C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\conf\\httpd.conf'
+[Thu Apr 02 12:04:38.875109 2026] [mpm_winnt:notice] [pid 10472:tid 416] AH00418: Parent: Created child process 6316
+[Thu Apr 02 12:04:41.071927 2026] [mpm_winnt:notice] [pid 6316:tid 420] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 02 12:05:13.233082 2026] [core:error] [pid 6316:tid 1112] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56265] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/branding/logo_3-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:13.233082 2026] [core:error] [pid 6316:tid 1108] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56310] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/branding/logo_1-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:13.234082 2026] [core:error] [pid 6316:tid 1292] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56311] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/branding/logo_4-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:13.234082 2026] [core:error] [pid 6316:tid 1288] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56312] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/branding/logo_2-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:13.235081 2026] [core:error] [pid 6316:tid 1284] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56313] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/branding/logo_5-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:13.235081 2026] [core:error] [pid 6316:tid 1280] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56314] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/backgrounds/cta-bg-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:26.373977 2026] [core:error] [pid 6316:tid 1292] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56315] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/branding/logo_1-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:26.373977 2026] [core:error] [pid 6316:tid 1284] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56322] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/branding/logo_2-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:26.376977 2026] [core:error] [pid 6316:tid 1288] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56338] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/branding/logo_3-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:26.376977 2026] [core:error] [pid 6316:tid 1280] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56339] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/branding/logo_4-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:26.376977 2026] [core:error] [pid 6316:tid 1108] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56340] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/branding/logo_5-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:05:26.376977 2026] [core:error] [pid 6316:tid 1112] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56341] AH00127: Cannot map GET /assets/img/https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/front-pages/backgrounds/cta-bg-light.png HTTP/1.1 to file, referer: http://erp-365.test/
+[Thu Apr 02 12:14:29.415257 2026] [core:warn] [pid 10428:tid 404] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 12:14:30.172798 2026] [mpm_winnt:notice] [pid 10428:tid 404] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 12:14:30.173797 2026] [mpm_winnt:notice] [pid 10428:tid 404] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 12:14:30.173797 2026] [core:notice] [pid 10428:tid 404] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18 -f C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\conf\\httpd.conf'
+[Thu Apr 02 12:14:30.180796 2026] [mpm_winnt:notice] [pid 10428:tid 404] AH00418: Parent: Created child process 12480
+[Thu Apr 02 12:14:31.880601 2026] [mpm_winnt:notice] [pid 12480:tid 420] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 02 13:01:51.115421 2026] [core:warn] [pid 12888:tid 420] AH00098: pid file C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 02 13:01:51.314275 2026] [mpm_winnt:notice] [pid 12888:tid 420] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.5.5 PHP/8.5.4 configured -- resuming normal operations
+[Thu Apr 02 13:01:51.314275 2026] [mpm_winnt:notice] [pid 12888:tid 420] AH00456: Apache Lounge VS18 server built: Feb 23 2026 10:01:09
+[Thu Apr 02 13:01:51.314275 2026] [core:notice] [pid 12888:tid 420] AH00094: Command line: 'C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\bin\\httpd.exe -d C:/Users/HUNG/Desktop/TDZ env/bin/apache/httpd-2.4.66-260223-Win64-VS18 -f C:\\Users\\HUNG\\Desktop\\TDZ env\\bin\\apache\\httpd-2.4.66-260223-Win64-VS18\\conf\\httpd.conf'
+[Thu Apr 02 13:01:51.324280 2026] [mpm_winnt:notice] [pid 12888:tid 420] AH00418: Parent: Created child process 10160
+[Thu Apr 02 13:01:53.037683 2026] [mpm_winnt:notice] [pid 10160:tid 420] AH00354: Child: Starting 64 worker threads.
